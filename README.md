@@ -1,7 +1,7 @@
 # jenkins-installation-on-ubuntu-script
 Shell Script To install Jenkins on ubuntu 20.04
 
-##USAGE##
+## USAGE
 
 -> Clone This Repo:
 $ git clone  https://github.com/deathrangerr/jenkins-installation-on-ubuntu-script.git
