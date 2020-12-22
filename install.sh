@@ -16,5 +16,5 @@ sudo usermod -aG sudo jenkins
 sudo sed -i '26 a jenkins  ALL=(ALL) NOPASSWD:ALL' /etc/sudoers
 ####CHANGING PORT OF JENKINS SERVER####
 sed -i '63d' /etc/default/jenkins && sed -i '63 a HTTP_PORT=8090' /etc/default/jenkins
-####TO SHOW THE STATUS OF JENKINS####
-systemctl status jenkins
+####RESTART JENKINS AND SHOW THE STATUS OF JENKINS####
+systemctl restart jenkins && systemctl status jenkins
